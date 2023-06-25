@@ -1,0 +1,35 @@
+body,
+h1 {
+  margin: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: grey;
+  width: 100vw;
+  height: 100vw;
+}
+
+.heading {
+  padding-top: 30px;
+}
+
+.star__wrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.star {
+  font-size: 40px;
+  padding: 10px;
+}
+
+.active {
+  color: #f7ba04;
+}
+
+.default {
+  color: unset;
+}
